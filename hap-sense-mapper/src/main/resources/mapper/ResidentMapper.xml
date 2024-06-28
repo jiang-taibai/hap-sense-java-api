@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coderjiang.mapper.ResidentMapper">
+    <resultMap id="BaseResultMap" type="com.coderjiang.pojo.entities.Resident">
+        <constructor>
+            <idArg column="id" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <arg column="identity_number" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <arg column="family_number" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+            <arg column="in_park_time" javaType="java.lang.String" jdbcType="TEXT"/>
+            <arg column="tags" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        </constructor>
+    </resultMap>
+
+</mapper>
