@@ -10,7 +10,8 @@ import javax.annotation.Resource;
 @RestController
 public class StatisticsController {
 
-    @Resource
+//    @Resource(name = "StatisticsServiceImpl")
+    @Resource(name = "StatisticsServiceImplIndependentTable")
     private StatisticsService statisticsService;
 
     /**

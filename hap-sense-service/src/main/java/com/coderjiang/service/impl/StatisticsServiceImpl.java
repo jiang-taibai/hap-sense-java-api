@@ -14,7 +14,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-@Service
+@Service(value = "StatisticsServiceImpl")
 public class StatisticsServiceImpl implements StatisticsService {
 
     @Resource
