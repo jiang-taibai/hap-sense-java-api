@@ -1,7 +1,0 @@
-spring:
-  datasource:
-    username: project_hap_sense_user_001
-    password: hap123
-    url: jdbc:mysql://coderjiang.com:20000/hap-sense?useSSL=false&serverTimezone=Asia/Shanghai
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    type: com.alibaba.druid.pool.DruidDataSource
